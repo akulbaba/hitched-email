@@ -1,0 +1,70 @@
+body {
+	text-align: center;
+	background: #eee;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-family: "Oxygen", sans-serif;
+	border-bottom: 1px solid #444;
+	width: 55%;
+	margin: auto;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+iframe {
+	height: 50vh;
+	margin-top: 15px;
+}
+
+.jumbotron {
+	background: url("https://cdn.morguefile.com/imageData/public/files/m/mxruben/preview/fldr_2010_09_05/file8161283707096.jpg"), #0563FC;
+	background-size: cover;
+	height: auto;
+	min-height: 100vh;
+	padding-top: 25%;
+	margin-bottom: 0;
+}
+
+#schedule, #directions, #contact {
+	min-height: 80vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 2em;
+	background-color: #faffff;
+	padding-top: 5vh;
+	display: inline-block;
+
+}
+
+#contact {
+	min-height: 20vh;
+}
+
+@media (min-width: 992px) {
+	#schedule {
+		border-right: 1px solid #bbbbbb;
+	}
+
+}
+
+#frosted {
+	background: rgba(153,255,255,0.4);
+	margin: auto;
+}
+
+#frosted:hover {
+	color: #222222;
+	background: rgba(153,255,255,0.6);
+}
+
+#pageWidth {
+	width: 70%;
+	margin: auto;
+}
